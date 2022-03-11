@@ -1,0 +1,26 @@
+.NavBar {
+  display: flex;
+  padding: 0.5em 1.5em;
+  justify-content: space-around;
+  align-items: center;
+  background: black;
+  color: #ddd;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.search input {
+  position: relative;
+  padding: 0.5em 1em;
+  border-radius: 16px;
+}
+
+.search button {
+  position: absolute;
+  background-color: black;
+  border: 0;
+  color: white;
+}

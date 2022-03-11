@@ -1,0 +1,17 @@
+.movieDesc {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 5em;
+  justify-content: center;
+  gap: 32px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.desc p {
+  max-width: 60ch;
+}
