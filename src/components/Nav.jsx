@@ -17,7 +17,7 @@ export default function Nav({ searchMovie, fetchMovies }) {
           onChange={searchMovie}
         />
         <button type="submit" onClick={fetchMovies}>
-          <span class="material-icons" id="search-btn">
+          <span className="material-icons" id="search-btn">
             search
           </span>
         </button>

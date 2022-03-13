@@ -10,15 +10,16 @@ import {
   Route,
 } from "react-router-dom";
 
-require("dotenv").config();
-
 function App() {
   const [data, setData] = useState([]);
   const [userData, setUserData] = useState("");
   const [movieId, setMovieId] = useState("");
-  const apiKey = process.env.API_KEY;
+  const apiKey = process.env.REACT_APP_MOVIE_API;
 
   console.log(movieId);
+  // console.log(`DOT:::${process}`);
+  console.log(`ENV:::${process.env}`);
+  console.log(`Pro:::${process.env.REACT_APP_MOVIE_API}`);
   function searchMovie(e) {
     console.log(e.target.value);
     setUserData(e.target.value);
